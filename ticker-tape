@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradingView Ticker</title>
+</head>
+<body>
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+            "symbols": [
+                { "description": "Tesla", "proName": "NASDAQ:TSLA" },
+                { "description": "Apple", "proName": "NASDAQ:AAPL" },
+                { "description": "Kellogg", "proName": "NYSE:KLG" },
+                { "description": "Coca-Cola", "proName": "NYSE:KO" },
+                { "description": "TKO Holdings", "proName": "NYSE:TKO" }
+            ],
+            "showSymbolLogo": true,
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "colorTheme": "light",
+            "locale": "en"
+        }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+</body>
+</html>
